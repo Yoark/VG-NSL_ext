@@ -1,0 +1,210 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AverageMeter	../src/evaluation.py	/^class AverageMeter(object):$/;"	kind:class	line:16
+AverageMeter	../src/train.py	/^from evaluation import i2t, t2i, AverageMeter, LogCollector, encode_data$/;"	kind:namespace	line:13
+BertDataset	../src/data.py	/^class BertDataset(data.Dataset):$/;"	kind:class	line:50
+BertTokenizer	../src/data.py	/^from transformers import BertTokenizer$/;"	kind:namespace	line:7
+COCO	../src/vocab.py	/^from pycocotools.coco import COCO$/;"	kind:namespace	line:5
+Categorical	../src/model.py	/^from torch.distributions import Categorical$/;"	kind:namespace	line:10
+ContrastiveLoss	../src/model.py	/^class ContrastiveLoss(nn.Module):$/;"	kind:class	line:222
+ContrastiveReward	../src/model.py	/^class ContrastiveReward(nn.Module):$/;"	kind:class	line:186
+Counter	../src/vocab.py	/^from collections import Counter$/;"	kind:namespace	line:4
+EmbeddingCombiner	../src/utils.py	/^class EmbeddingCombiner(nn.Module):$/;"	kind:class	line:8
+EncoderImagePrecomp	../src/model.py	/^class EncoderImagePrecomp(nn.Module):$/;"	kind:class	line:21
+EncoderText	../src/model.py	/^class EncoderText(nn.Module):$/;"	kind:class	line:62
+F	../src/model.py	/^from torch.nn import functional as F$/;"	kind:namespace	line:12
+LogCollector	../src/evaluation.py	/^class LogCollector(object):$/;"	kind:class	line:44
+LogCollector	../src/train.py	/^from evaluation import i2t, t2i, AverageMeter, LogCollector, encode_data$/;"	kind:namespace	line:13
+OrderedDict	../src/evaluation.py	/^from collections import OrderedDict$/;"	kind:namespace	line:11
+OrderedDict	../src/model.py	/^from collections import OrderedDict$/;"	kind:namespace	line:2
+PrecompDataset	../src/data.py	/^class PrecompDataset(data.Dataset):$/;"	kind:class	line:9
+VGNSL	../src/evaluation.py	/^from model import VGNSL$/;"	kind:namespace	line:10
+VGNSL	../src/model.py	/^class VGNSL(object):$/;"	kind:class	line:250
+VGNSL	../src/train.py	/^from model import VGNSL$/;"	kind:namespace	line:12
+Variable	../src/model.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:9
+Vocabulary	../src/evaluation.py	/^from vocab import Vocabulary $/;"	kind:namespace	line:8
+Vocabulary	../src/test.py	/^from vocab import Vocabulary$/;"	kind:namespace	line:5
+Vocabulary	../src/train.py	/^from vocab import Vocabulary$/;"	kind:namespace	line:11
+Vocabulary	../src/vocab.py	/^class Vocabulary(object):$/;"	kind:class	line:6
+__call__	../src/vocab.py	/^    def __call__(self, word):$/;"	kind:member	line:20
+__getitem__	../src/data.py	/^    def __getitem__(self, index):$/;"	kind:member	line:37
+__getitem__	../src/data.py	/^    def __getitem__(self, index):$/;"	kind:member	line:78
+__init__	../src/data.py	/^    def __init__(self, data_path, data_split, vocab, $/;"	kind:member	line:12
+__init__	../src/data.py	/^    def __init__(self, data_path, data_split, vocab, $/;"	kind:member	line:53
+__init__	../src/evaluation.py	/^    def __init__(self):$/;"	kind:member	line:19
+__init__	../src/evaluation.py	/^    def __init__(self):$/;"	kind:member	line:47
+__init__	../src/model.py	/^    def __init__(self, img_dim, embed_size, no_imgnorm=False):$/;"	kind:member	line:23
+__init__	../src/model.py	/^    def __init__(self, margin=0):$/;"	kind:member	line:189
+__init__	../src/model.py	/^    def __init__(self, margin=0):$/;"	kind:member	line:225
+__init__	../src/model.py	/^    def __init__(self, opt):$/;"	kind:member	line:253
+__init__	../src/model.py	/^    def __init__(self, opt, vocab_size, semantics_dim):$/;"	kind:member	line:64
+__init__	../src/utils.py	/^    def __init__(self, *embeddings):$/;"	kind:member	line:9
+__init__	../src/vocab.py	/^    def __init__(self):$/;"	kind:member	line:9
+__len__	../src/data.py	/^    def __len__(self):$/;"	kind:member	line:47
+__len__	../src/data.py	/^    def __len__(self):$/;"	kind:member	line:88
+__len__	../src/vocab.py	/^    def __len__(self):$/;"	kind:member	line:25
+__str__	../src/evaluation.py	/^    def __str__(self):$/;"	kind:member	line:34
+__str__	../src/evaluation.py	/^    def __str__(self):$/;"	kind:member	line:57
+accuracy	../src/train.py	/^def accuracy(output, target, topk=(1,)):$/;"	kind:function	line:93
+add_dim	../src/utils.py	/^def add_dim(tensor, dim, size):$/;"	kind:function	line:135
+add_dim_as_except	../src/utils.py	/^def add_dim_as_except(tensor, target, *excepts):$/;"	kind:function	line:227
+add_word	../src/vocab.py	/^    def add_word(self, word):$/;"	kind:member	line:14
+adjust_learning_rate	../src/train.py	/^def adjust_learning_rate(opt, optimizer, epoch):$/;"	kind:function	line:85
+argparse	../src/test.py	/^import argparse$/;"	kind:namespace	line:1
+argparse	../src/train.py	/^import argparse$/;"	kind:namespace	line:1
+args	../src/test.py	/^    args = parser.parse_args()$/;"	kind:variable	line:63
+backends	../src/model.py	/^import torch.backends.cudnn as cudnn$/;"	kind:namespace	line:5
+best_rsum	../src/train.py	/^        best_rsum = max(rsum, best_rsum)$/;"	kind:variable	line:217
+best_rsum	../src/train.py	/^    best_rsum = 0$/;"	kind:variable	line:205
+broadcast	../src/utils.py	/^def broadcast(tensor, dim, size):$/;"	kind:function	line:127
+clean_tree	../src/evaluation.py	/^from utils import generate_tree, clean_tree$/;"	kind:namespace	line:13
+clean_tree	../src/utils.py	/^def clean_tree(sentence, remove_tag_set={'<start>', '<end>', '<pad>'}):$/;"	kind:function	line:251
+clip_grad_norm_	../src/model.py	/^from torch.nn.utils.clip_grad import clip_grad_norm_$/;"	kind:namespace	line:13
+collate_fn	../src/data.py	/^def collate_fn(data):$/;"	kind:function	line:91
+collections	../src/utils.py	/^import collections$/;"	kind:namespace	line:1
+concat_shape	../src/utils.py	/^def concat_shape(*shapes):$/;"	kind:function	line:117
+console	../src/train.py	/^    console = logging.StreamHandler()$/;"	kind:variable	line:182
+cosine_sim	../src/model.py	/^    index_mask, index_one_hot_ellipsis, make_embeddings_bert$/;"	kind:namespace	line:17
+cosine_sim	../src/utils.py	/^def cosine_sim(im, s):$/;"	kind:function	line:139
+cudnn	../src/model.py	/^import torch.backends.cudnn as cudnn$/;"	kind:namespace	line:5
+data	../src/data.py	/^import torch.utils.data as data$/;"	kind:namespace	line:6
+data	../src/train.py	/^import data$/;"	kind:namespace	line:10
+data.py	../src/data.py	1;"	kind:file	line:1
+embed	../src/evaluation.py	/^from IPython import embed$/;"	kind:namespace	line:14
+encode_data	../src/evaluation.py	/^def encode_data(model, data_loader, log_step=10, logging=print, vocab=None, stage='dev'):$/;"	kind:function	line:68
+encode_data	../src/train.py	/^from evaluation import i2t, t2i, AverageMeter, LogCollector, encode_data$/;"	kind:namespace	line:13
+evaluation.py	../src/evaluation.py	1;"	kind:file	line:1
+extract_spans	../src/test.py	/^def extract_spans(tree):$/;"	kind:function	line:7
+extract_statistics	../src/test.py	/^def extract_statistics(gold_tree_spans, produced_tree_spans):$/;"	kind:function	line:32
+f1_score	../src/test.py	/^def f1_score(produced_trees, gold_trees):$/;"	kind:function	line:42
+formatter	../src/train.py	/^    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')$/;"	kind:variable	line:177
+forward	../src/model.py	/^    def forward(self, im, s):  $/;"	kind:member	line:194
+forward	../src/model.py	/^    def forward(self, im, s):$/;"	kind:member	line:230
+forward	../src/model.py	/^    def forward(self, images):$/;"	kind:member	line:39
+forward	../src/model.py	/^    def forward(self, x, lengths, volatile=False):  $/;"	kind:member	line:86
+forward	../src/utils.py	/^    def forward(self, input):$/;"	kind:member	line:13
+forward_emb	../src/model.py	/^    def forward_emb(self, images, captions, lengths, volatile=False):$/;"	kind:member	line:300
+forward_reward	../src/model.py	/^    def forward_reward(self, base_img_emb, cap_span_features, left_span_features, right_span_features,$/;"	kind:member	line:312
+functional	../src/model.py	/^from torch.nn import functional$/;"	kind:namespace	line:11
+generate_tree	../src/evaluation.py	/^from utils import generate_tree, clean_tree$/;"	kind:namespace	line:13
+generate_tree	../src/utils.py	/^def generate_tree(captions, tree_indices, pos, vocab, pad_word='<pad>'):$/;"	kind:function	line:148
+get_eval_loader	../src/data.py	/^def get_eval_loader(data_path, split_name, vocab, batch_size, workers, $/;"	kind:function	line:128
+get_eval_loader	../src/evaluation.py	/^from data import get_eval_loader$/;"	kind:namespace	line:5
+get_precomp_loader	../src/data.py	/^def get_precomp_loader(data_path, data_split, vocab, batch_size=128,$/;"	kind:function	line:106
+get_train_loaders	../src/data.py	/^def get_train_loaders(data_path, vocab, batch_size, workers):$/;"	kind:function	line:118
+handler	../src/train.py	/^    handler = logging.FileHandler(os.path.join(opt.logger_name, 'train.log'), 'w')$/;"	kind:variable	line:178
+help	../src/test.py	/^                        help='model path to evaluate')$/;"	kind:variable	line:62
+help	../src/train.py	/^                        help='Do not normalize the image embeddings.')$/;"	kind:variable	line:141
+help	../src/train.py	/^                        help='dimensionality of the image embedding')$/;"	kind:variable	line:139
+help	../src/train.py	/^                        help='dimensionality of the joint embedding')$/;"	kind:variable	line:123
+help	../src/train.py	/^                        help='dimensionality of the word embedding')$/;"	kind:variable	line:121
+help	../src/train.py	/^                        help='gradient clipping threshold')$/;"	kind:variable	line:125
+help	../src/train.py	/^                        help='initial learning rate')$/;"	kind:variable	line:127
+help	../src/train.py	/^                        help='number of data loader workers')$/;"	kind:variable	line:131
+help	../src/train.py	/^                        help='number of epochs to update the learning rate')$/;"	kind:variable	line:129
+help	../src/train.py	/^                        help='number of steps to print and record the log')$/;"	kind:variable	line:133
+help	../src/train.py	/^                        help='number of steps to run validation')$/;"	kind:variable	line:135
+help	../src/train.py	/^                        help='number of training epochs')$/;"	kind:variable	line:117
+help	../src/train.py	/^                        help='optimizer, can be Adam, SGD, etc.')$/;"	kind:variable	line:145
+help	../src/train.py	/^                        help='path to datasets')$/;"	kind:variable	line:113
+help	../src/train.py	/^                        help='path to save the model and log')$/;"	kind:variable	line:137
+help	../src/train.py	/^                        help='penalization for head-initial inductive bias')$/;"	kind:variable	line:168
+help	../src/train.py	/^                        help='rank loss margin')$/;"	kind:variable	line:115
+help	../src/train.py	/^                        help='score hidden dim')$/;"	kind:variable	line:143
+help	../src/train.py	/^                        help='size of a training mini-batch')$/;"	kind:variable	line:119
+i2t	../src/evaluation.py	/^def i2t(images, captions, npts=None, measure='cosine', return_ranks=False):$/;"	kind:function	line:129
+i2t	../src/train.py	/^from evaluation import i2t, t2i, AverageMeter, LogCollector, encode_data$/;"	kind:namespace	line:13
+index_mask	../src/model.py	/^    index_mask, index_one_hot_ellipsis, make_embeddings_bert$/;"	kind:namespace	line:17
+index_mask	../src/utils.py	/^def index_mask(indices, max_length):$/;"	kind:function	line:184
+index_one_hot_ellipsis	../src/model.py	/^    index_mask, index_one_hot_ellipsis, make_embeddings_bert$/;"	kind:namespace	line:17
+index_one_hot_ellipsis	../src/utils.py	/^def index_one_hot_ellipsis(tensor, dim, index):$/;"	kind:function	line:174
+index_range_ellipsis	../src/utils.py	/^def index_range_ellipsis(x, a, b, dim=1, padding_zero=True):$/;"	kind:function	line:195
+init	../src/model.py	/^import torch.nn.init$/;"	kind:namespace	line:7
+init_weights	../src/model.py	/^    def init_weights(self):$/;"	kind:member	line:32
+ipdb	../src/model.py	/^        import ipdb; ipdb.set_trace()$/;"	kind:namespace	line:103
+is_best	../src/train.py	/^        is_best = rsum > best_rsum$/;"	kind:variable	line:216
+l2norm	../src/model.py	/^    index_mask, index_one_hot_ellipsis, make_embeddings_bert$/;"	kind:namespace	line:17
+l2norm	../src/utils.py	/^def l2norm(x, dim=-1):$/;"	kind:function	line:144
+length2mask	../src/utils.py	/^def length2mask(lengths, max_length):$/;"	kind:function	line:237
+load_state_dict	../src/model.py	/^    def load_state_dict(self, state_dict):$/;"	kind:member	line:284
+load_state_dict	../src/model.py	/^    def load_state_dict(self, state_dict):$/;"	kind:member	line:50
+logger	../src/train.py	/^    logger = logging.getLogger(__name__)$/;"	kind:variable	line:175
+logging	../src/train.py	/^import logging$/;"	kind:namespace	line:2
+make_embeddings	../src/model.py	/^    index_mask, index_one_hot_ellipsis, make_embeddings_bert$/;"	kind:namespace	line:17
+make_embeddings	../src/utils.py	/^def make_embeddings(opt, vocab_size, dim):$/;"	kind:function	line:52
+make_embeddings_bert	../src/model.py	/^    index_mask, index_one_hot_ellipsis, make_embeddings_bert$/;"	kind:namespace	line:17
+make_embeddings_bert	../src/utils.py	/^def make_embeddings_bert(opt, vocab_size, dim):$/;"	kind:function	line:81
+model	../src/train.py	/^    model = VGNSL(opt)$/;"	kind:variable	line:203
+model.py	../src/model.py	1;"	kind:file	line:1
+models	../src/model.py	/^import torchvision.models as models$/;"	kind:namespace	line:8
+nltk	../src/data.py	/^import nltk$/;"	kind:namespace	line:1
+nltk	../src/vocab.py	/^import nltk$/;"	kind:namespace	line:2
+nn	../src/model.py	/^import torch.nn as nn$/;"	kind:namespace	line:6
+nn	../src/model.py	/^import torch.nn.init$/;"	kind:namespace	line:7
+nn	../src/utils.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+np	../src/data.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../src/evaluation.py	/^import numpy as np$/;"	kind:namespace	line:7
+np	../src/model.py	/^import numpy as np$/;"	kind:namespace	line:1
+numpy	../src/evaluation.py	/^import numpy$/;"	kind:namespace	line:4
+opt	../src/train.py	/^    opt = parser.parse_args()$/;"	kind:variable	line:169
+os	../src/data.py	/^import os$/;"	kind:namespace	line:3
+os	../src/evaluation.py	/^import os$/;"	kind:namespace	line:1
+os	../src/test.py	/^import os$/;"	kind:namespace	line:2
+os	../src/train.py	/^import os$/;"	kind:namespace	line:3
+pack_padded_sequence	../src/model.py	/^from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence$/;"	kind:namespace	line:14
+pad_packed_sequence	../src/model.py	/^from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence$/;"	kind:namespace	line:14
+parser	../src/test.py	/^    parser = argparse.ArgumentParser()$/;"	kind:variable	line:60
+parser	../src/train.py	/^    parser = argparse.ArgumentParser()$/;"	kind:variable	line:111
+pickle	../src/evaluation.py	/^import pickle$/;"	kind:namespace	line:2
+pickle	../src/train.py	/^import pickle$/;"	kind:namespace	line:4
+pickle	../src/vocab.py	/^import pickle$/;"	kind:namespace	line:3
+prod	../src/utils.py	/^def prod(values, default=1):$/;"	kind:function	line:245
+reduce	../src/utils.py	/^from functools import reduce$/;"	kind:namespace	line:2
+reset	../src/evaluation.py	/^    def reset(self):$/;"	kind:member	line:22
+reset_weights	../src/model.py	/^    def reset_weights(self):$/;"	kind:member	line:83
+rsum	../src/train.py	/^        rsum = validate(opt, val_loader, model, vocab)$/;"	kind:variable	line:213
+save_checkpoint	../src/train.py	/^def save_checkpoint(state, is_best, curr_epoch, filename='checkpoint.pth.tar', prefix=''):$/;"	kind:function	line:78
+sequence_mask	../src/model.py	/^    index_mask, index_one_hot_ellipsis, make_embeddings_bert$/;"	kind:namespace	line:17
+sequence_mask	../src/utils.py	/^def sequence_mask(sequence_length, max_length=None):$/;"	kind:function	line:161
+set_trace	../src/model.py	/^        import ipdb; ipdb.set_trace()$/;"	kind:namespace	line:103
+shutil	../src/train.py	/^import shutil$/;"	kind:namespace	line:5
+state_dict	../src/model.py	/^    def state_dict(self):$/;"	kind:member	line:280
+t2i	../src/evaluation.py	/^def t2i(images, captions, npts=None, measure='cosine', return_ranks=False):$/;"	kind:function	line:173
+t2i	../src/train.py	/^from evaluation import i2t, t2i, AverageMeter, LogCollector, encode_data$/;"	kind:namespace	line:13
+test.py	../src/test.py	1;"	kind:file	line:1
+test_trees	../src/evaluation.py	/^def test_trees(model_path):$/;"	kind:function	line:211
+test_trees	../src/test.py	/^from evaluation import test_trees$/;"	kind:namespace	line:4
+time	../src/evaluation.py	/^import time$/;"	kind:namespace	line:6
+time	../src/train.py	/^import time$/;"	kind:namespace	line:6
+torch	../src/data.py	/^import torch$/;"	kind:namespace	line:5
+torch	../src/data.py	/^import torch.utils.data as data$/;"	kind:namespace	line:6
+torch	../src/evaluation.py	/^import torch$/;"	kind:namespace	line:9
+torch	../src/model.py	/^import torch$/;"	kind:namespace	line:4
+torch	../src/model.py	/^import torch.backends.cudnn as cudnn$/;"	kind:namespace	line:5
+torch	../src/model.py	/^import torch.nn as nn$/;"	kind:namespace	line:6
+torch	../src/model.py	/^import torch.nn.init$/;"	kind:namespace	line:7
+torch	../src/train.py	/^import torch$/;"	kind:namespace	line:8
+torch	../src/utils.py	/^import torch$/;"	kind:namespace	line:4
+torch	../src/utils.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+torchvision	../src/model.py	/^import torchvision.models as models$/;"	kind:namespace	line:8
+train	../src/train.py	/^def train(opt, train_loader, model, epoch, val_loader, vocab):$/;"	kind:function	line:16
+train.py	../src/train.py	1;"	kind:file	line:1
+train_emb	../src/model.py	/^    def train_emb(self, images, captions, lengths, ids=None, epoch=None, *args):$/;"	kind:member	line:358
+train_start	../src/model.py	/^    def train_start(self):$/;"	kind:member	line:290
+tree2list	../src/utils.py	/^def tree2list(tokens):$/;"	kind:function	line:17
+tree2str	../src/utils.py	/^def tree2str(tree):$/;"	kind:function	line:45
+treelist2dict	../src/utils.py	/^def treelist2dict(tree, d):$/;"	kind:function	line:37
+update	../src/evaluation.py	/^    def update(self, k, v, n=0):$/;"	kind:member	line:51
+update	../src/evaluation.py	/^    def update(self, val, n=0):$/;"	kind:member	line:28
+update_with_mask	../src/model.py	/^    def update_with_mask(lv, rv, cv, lm, rm, cm):$/;"	kind:member	line:177
+utils	../src/data.py	/^import torch.utils.data as data$/;"	kind:namespace	line:6
+utils	../src/model.py	/^import utils$/;"	kind:namespace	line:18
+utils.py	../src/utils.py	1;"	kind:file	line:1
+val_start	../src/model.py	/^    def val_start(self):$/;"	kind:member	line:295
+validate	../src/train.py	/^def validate(opt, val_loader, model, vocab):$/;"	kind:function	line:59
+vocab	../src/train.py	/^    vocab = pickle.load(open(os.path.join(opt.data_path, 'vocab.pkl'), 'rb'))$/;"	kind:variable	line:189
+vocab.py	../src/vocab.py	1;"	kind:file	line:1
