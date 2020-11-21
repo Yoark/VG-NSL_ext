@@ -6,5 +6,5 @@ We replicate major results from [Visually Grounded Neural Syntax Acquisition](ht
 See `src/train.py` also `demos/*.sh` for options Or
 `python src/train.py --help` to see more options
 **If you have any question, please contact Zijao at yoark.yang@gmail.com**
-**Also, if anyone's visiting this page, and want to know more, I will add more description after finals for the semester, cheers!**
+
 
